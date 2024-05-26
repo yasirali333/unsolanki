@@ -48,31 +48,31 @@ export default function Login_form() {
 </div>
     <div className='space-y-5'>
     <div className='w-72 h-32 bg-white rounded-lg space-y-8 pt-5 text-center'>
-    <Image src={'/msg.PNG'} alt="twt" width={40} height={40}
+    <Image src={'/msg.png'} alt="twt" width={40} height={40}
      className='ml-32'/>
     <h4>support@unsolanki.com</h4>
     </div>
 
 
     <div className='w-72 h-32 bg-white rounded-lg space-y-8 pt-5 text-center'>
-    <Image src={'/contact.PNG'} alt="twt" width={40} height={40}
+    <Image src={'/contact.png'} alt="twt" width={40} height={40}
      className='ml-32'/>
     <h4>support@unsolanki.com</h4>
     </div>
 
     <div className='w-72 h-32 bg-white rounded-lg space-y-8 pt-5 text-center'>
-    <Image src={'/location.PNG'} alt="twt" width={40} height={40}
+    <Image src={'/location.png'} alt="twt" width={40} height={40}
      className='ml-32'/>
     <h4>support@unsolanki.com</h4>
     </div>
 
     <div className='w-72 h-32 bg-white rounded-lg space-y-8 pt-5 text-center'>
     <div className='flex space-x-2 ml-20'>
-    <Image src={'/social_1.PNG'} alt="twt" width={40} height={40}
+    <Image src={'/social_1.png'} alt="twt" width={40} height={40}
      className=''/>
-     <Image src={'/social_2.PNG'} alt="twt" width={40} height={40}
+     <Image src={'/social_2.png'} alt="twt" width={40} height={40}
      className=''/>
-     <Image src={'/social_3.PNG'} alt="twt" width={40} height={40}
+     <Image src={'/social_3.png'} alt="twt" width={40} height={40}
      className=''/>
      </div>
     <h4>support@unsolanki.com</h4>

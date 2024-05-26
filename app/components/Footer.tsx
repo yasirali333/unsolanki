@@ -5,7 +5,7 @@ export default function Footer() {
     <div className='bg-[#001642] w-full h-[551px]'>
     <div className='flex gap-12  p-24 '>
       <div className=' w-80 font-Inter h-20 '>
-      <Image src={'/b_logo.PNG'} alt="logo" width={124} height={77}/>
+      <Image src={'/b_logo.png'} alt="logo" width={124} height={77}/>
       <p className="text-white text-[16px] font-['Inter',_sans-serif] font-normal leading-[23.77px] ">
       Top learning experiences that create more talent in the world.
       </p>
@@ -60,11 +60,11 @@ export default function Footer() {
     <div className='flex mt-36 ml-20 mr-40 justify-between'>
       <h4 className='text-[#98A2B3]'>© 2022 Ed-Circle. All rights reserved.</h4>
       <ul className='flex space-x-6'>
-        <li><Image src={'/twitter.PNG'} alt="twt" width={25} height={25}/></li>
-        <li><Image src={'/linkedin.PNG'} alt="li" width={25} height={25}/></li>
-        <li><Image src={'/facebook.PNG'} alt="fb" width={25} height={25}/></li>
-        <li><Image src={'/github.PNG'} alt="gh" width={25} height={25}/></li>
-        <li><Image src={'/social.PNG'} alt="social" width={25} height={25}/></li>
+        <li><Image src={'/twitter.png'} alt="twt" width={25} height={25}/></li>
+        <li><Image src={'/linkedin.png'} alt="li" width={25} height={25}/></li>
+        <li><Image src={'/facebook.png'} alt="fb" width={25} height={25}/></li>
+        <li><Image src={'/github.png'} alt="gh" width={25} height={25}/></li>
+        <li><Image src={'/social.png'} alt="social" width={25} height={25}/></li>
       </ul>
     </div>
     </div>
