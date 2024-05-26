@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Home_info from '../components/Home_info'
-import Card from '../components/Card'
+import Header from '@/app/components/Header'
+import Footer from '@/app/components/Footer'
+import Home_info from '@/app/components/Home_info'
+import Card from '@/app/components/Card'
 export default function Login() {
- 
+  const selectedIndex=1;
   return (
     <div>
-       <div><Header/></div>
+       <div><Header selectedIndex={selectedIndex}/></div>
        <div><Home_info/></div>
        <div className='mt-20 ml-20 pb-8 flex space-x-10 max-w-[1240px] overflow-x-scroll hide-scrollbar'>
    

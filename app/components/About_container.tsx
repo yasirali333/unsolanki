@@ -18,15 +18,15 @@ export default function About_container() {
       <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
-      <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
+      <About_div icon='/icon2.png' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
       </div>
       <div>
-      <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
+      <About_div icon='/icon3.png' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
-      <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
+      <About_div icon='/icon4.png' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
       </div>
@@ -44,18 +44,18 @@ export default function About_container() {
     </div>
     <div className='flex space-x-4 ml-20'>
       <div>
-      <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
+      <About_div icon='/icon5.png' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
-      <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
+      <About_div icon='/icon6.png' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
       </div>
       <div>
-      <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
+      <About_div icon='/icon7.png' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
-      <About_div icon='/icon1.svg' heading='Trusted by Thousands' 
+      <About_div icon='/icon8.png' heading='Trusted by Thousands' 
       discription='We have successfully served thousands of students, 
       helping them unlock their potential and achieve their career goals'/>
       </div>
