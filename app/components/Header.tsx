@@ -8,7 +8,7 @@ export default function Header({selectedIndex}:any) {
   
   
   return (
-    <div className='flex gap-24'>
+    <div className='flex justify-between mr-20'>
       <Image src={'/logo.png'} alt="logo" width={124} height={77} 
       className='mt-12 ml-20'/>
       <li className='flex gap-2 mt-16 font-poppins font-semibold text-xl leading-10'>
