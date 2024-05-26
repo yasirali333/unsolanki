@@ -9,7 +9,7 @@ export default function Login() {
     <div>
        <div><Header selectedIndex={selectedIndex}/></div>
        <div><Home_info/></div>
-       <div className='mt-20 ml-20 pb-8 flex space-x-10 max-w-[1240px] overflow-x-scroll hide-scrollbar'>
+       <div className='mt-20 p-4 ml-20 pb-8 flex space-x-8 max-w-[1240px] overflow-x-scroll hide-scrollbar'>
    
       <div className='w-[384]'>
        <Card image='/course_3.svg' time='01 hr 02 mins' course_name='Figma UI UX Design...' discription='Use Figma to get a job in UI Design, User Interface, User Experience design.'
