@@ -53,25 +53,25 @@ export default function Course_box(props:any) {
         </div>
         <div className='w-[239px] h-32 border-r-[1px] pl-10 mt-8 mb-8 '>
             <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">01</h1>
+           text-[50px] font-extrabold leading-[25.77px] mt-1">02</h1>
            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
            text-[18px] font-medium leading-[27px] mt-6 mr-8">{two}</h1>
         </div>
         <div className='w-[239px] h-32 border-r-[1px] pl-10 mt-8 mb-8 '>
             <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">01</h1>
+           text-[50px] font-extrabold leading-[25.77px] mt-1">03</h1>
            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
            text-[18px] font-medium leading-[27px] mt-6 mr-8">{three}</h1>
         </div>
         <div className='w-[239px] h-32 border-r-[1px] pl-10 mt-8 mb-8 '>
             <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">01</h1>
+           text-[50px] font-extrabold leading-[25.77px] mt-1">04</h1>
            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
            text-[18px] font-medium leading-[27px] mt-6 mr-8">{four}</h1>
         </div>
         <div className='w-[239px] h-32 pl-10 mt-8 mb-8 '>
             <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">01</h1>
+           text-[50px] font-extrabold leading-[25.77px] mt-1">05</h1>
            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
            text-[18px] font-medium leading-[27px] mt-6 mr-8">{five}</h1>
         </div>

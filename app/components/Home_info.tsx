@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 export default function Home_info() {
   return (
-    <div className='flex justify-between pr-10 w-full h-auto bg-white pl-14 relative'>
+    <div className='flex justify-between pr-10 w-full h-auto bg-white pl-20 relative'>
      <div className=' w-[750px]'> 
       <div className='absolute inset-0'>
       <Image src='/bg_circle.svg' alt="bg_circle" width={730} height={730}
-      className='ml-4'/>
+      className='ml-8'/>
       </div>
       <div className='relative w-[650px] h-auto pt-32 '>
         <h1 className="text-black font-bold font-['Poppins',_sans-serif] text-[73px]  leading-[93.16px] ">
