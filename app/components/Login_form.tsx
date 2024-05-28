@@ -85,15 +85,18 @@ export default function Login_form() {
             <h2 className="text-[#4C4C4D] font-['Be_Vietnam_Pro',_sans-serif] mt-4 text-[18px] font-normal leading-[18.77px] text-center">
               OR
             </h2>
-            <div className="flex space-x-2 w-full mt-4 pl-[400px] bg-white text-black py-3 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
+            <div className="flex space-x-2 w-full mt-4 item-center justify-center bg-white text-black py-3 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:bg-blue-600">
               <Image src={'/google_logo.png'} alt="google_logo" width={25} height={25} />
               <button>Login with Google</button>
             </div>
-            <div className='flex space-x-1 ml-[355px]'>
+            <div className='flex space-x-1 item-center justify-center '>
               <h4 className="text-[#4C4C4D] font-['Be_Vietnam_Pro',_sans-serif] mt-4 text-[18px] font-normal leading-[18.77px]">
-                Don’t have an account? <span className='font-semibold'>Sign Up</span>
+                Don’t have an account?
+                 <span className='font-semibold text-[14px] md:text-[18px] '>
+                  Sign Up</span>
               </h4>
-              <Image src={'/arrow.png'} alt="arrow" width={30} height={15} className='mt-2' />
+              <Image src={'/arrow.png'} alt="arrow" width={30} height={15} 
+              className='mt-4 w-4 h-4 md:w-5 md:h-5 lg:w-6 lg:h-6'  />
             </div>
           </div>
         </form>

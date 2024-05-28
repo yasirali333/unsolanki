@@ -22,13 +22,13 @@ export default function Course_box(props:any) {
     </div>
     <div className='flex space-x-3 '>
       <Image src={course_image1} alt="logo" width={390} height={420} 
-      className='radius-[8px]'/>
+      className='radius-[8px] w-full h-auto max-w-full '/>
 
       <Image src={course_image2} alt="logo" width={390} height={420} 
-      className='radius-[8px]'/>
+      className='radius-[8px] w-full h-auto max-w-full'/>
 
       <Image src={course_image3} alt="logo" width={390} height={420} 
-      className='radius-[8px]'/>
+      className='radius-[8px] w-full h-auto max-w-full'/>
     </div>
     <div className='flex space-x-1 justify-between mt-6'>
         <div className='flex space-x-1'>
@@ -39,44 +39,28 @@ export default function Course_box(props:any) {
            text-[20px] font-medium leading-[25.77px] mt-1">
             {name}</h1>
     </div>
-    <div className='w-[1200px] h-[279px] mt-8 rounded-[8px] border-[1px] '>
-      <div className='h-[81px]  border-b-[1px] '>
-       <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[22px] font-semibold leading-[33px] pt-6 pl-6">Curiculum</h1>
-      </div>
-      <div className='flex space-x-0'>
-        <div className='w-[239px] h-32 border-r-[1px] pl-10 mt-8 mb-8 '>
-            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">01</h1>
-           <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[18px] font-medium leading-[27px] mt-6 mr-8">{one}</h1>
-        </div>
-        <div className='w-[239px] h-32 border-r-[1px] pl-10 mt-8 mb-8 '>
-            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">02</h1>
-           <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[18px] font-medium leading-[27px] mt-6 mr-8">{two}</h1>
-        </div>
-        <div className='w-[239px] h-32 border-r-[1px] pl-10 mt-8 mb-8 '>
-            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">03</h1>
-           <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[18px] font-medium leading-[27px] mt-6 mr-8">{three}</h1>
-        </div>
-        <div className='w-[239px] h-32 border-r-[1px] pl-10 mt-8 mb-8 '>
-            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">04</h1>
-           <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[18px] font-medium leading-[27px] mt-6 mr-8">{four}</h1>
-        </div>
-        <div className='w-[239px] h-32 pl-10 mt-8 mb-8 '>
-            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[50px] font-extrabold leading-[25.77px] mt-1">05</h1>
-           <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] 
-           text-[18px] font-medium leading-[27px] mt-6 mr-8">{five}</h1>
-        </div>
-      </div>
-    </div>
+    <div className='w-full lg:w-auto mt-8 rounded-[8px] border-[1px]'>
+                <div className='h-[81px] border-b-[1px] flex items-center'>
+                    <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif]
+                        text-[22px] font-semibold leading-[33px] pl-6">
+                        Curriculum
+                    </h1>
+                </div>
+                <div className='flex flex-col lg:flex-row lg:flex-wrap'>
+                    {[one, two, three, four, five].map((item, index) => (
+                        <div key={index} className={`w-full lg:w-[calc(50%-1rem)] xl:w-[calc(20.333%-1rem)] h-32 border-b lg:border-b-0 ${index < 4 ? 'lg:border-r' : ''} px-6 lg:px-10 mt-8 mb-8`}>
+                            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif]
+                                text-[50px] font-extrabold leading-[25.77px]">
+                                0{index + 1}
+                            </h1>
+                            <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif]
+                                text-[18px] font-medium leading-[27px] mt-6 mr-8">
+                                {item}
+                            </h1>
+                        </div>
+                    ))}
+                </div>
+            </div>
     </div>
   )
 }

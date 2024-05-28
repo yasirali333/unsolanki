@@ -5,12 +5,11 @@ export default function course_container() {
    
   return (
     <div className='mb-12'>
-      <div className='w-[1150px] '> 
-            <h1 className="text-[#262626]  font-['Be_Vietnam_Pro',_sans-serif]
-             mt-16 ml-20  text-[46px] font-extrabold leading-[72px]">
-              Online Courses on Design and Development</h1>
-
-        </div>
+    <div className='w-1/2 max-w-[850px] mx-4 sm:mx-8  pl-12'>
+    <h1 className="text-[#262626] font-['Be_Vietnam_Pro',_sans-serif] mt-16 text-[28px] sm:text-[36px] md:text-[46px] lg:text-[46px] font-extrabold leading-[1.2] sm:leading-[1.2] md:leading-[1.5] lg:leading-[72px]">
+        Online Courses on Design and Development
+    </h1>
+   </div>
         <Course_box
         course_name='Web Design Fundamentals'
         course_disc='Learn the fundamentals of web design, including HTML, CSS, and responsive
